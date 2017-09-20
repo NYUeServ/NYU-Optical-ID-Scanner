@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F08D561F66DE8700C0100F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08D551F66DE8700C0100F /* AppDelegate.swift */; };
+		49F08D581F66DE8700C0100F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08D571F66DE8700C0100F /* ViewController.swift */; };
+		49F08D5B1F66DE8700C0100F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F08D591F66DE8700C0100F /* Main.storyboard */; };
+		49F08D5D1F66DE8700C0100F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F08D5C1F66DE8700C0100F /* Assets.xcassets */; };
+		49F08D601F66DE8700C0100F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F08D5E1F66DE8700C0100F /* LaunchScreen.storyboard */; };
+		49F08D6B1F66DE8700C0100F /* NYU_ID_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08D6A1F66DE8700C0100F /* NYU_ID_ScannerTests.swift */; };
+		49F08D761F66DE8700C0100F /* NYU_ID_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08D751F66DE8700C0100F /* NYU_ID_ScannerUITests.swift */; };
+		49F08D841F66E12F00C0100F /* OpticalIDScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08D831F66E12F00C0100F /* OpticalIDScanner.swift */; };
+		BE6B190E9F0C221A60684A82 /* Pods_NYU_ID_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4ADB402E37C3C0E8625BB6 /* Pods_NYU_ID_Scanner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F08D671F66DE8700C0100F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F08D4A1F66DE8600C0100F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F08D511F66DE8600C0100F;
+			remoteInfo = "NYU-ID-Scanner";
+		};
+		49F08D721F66DE8700C0100F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F08D4A1F66DE8600C0100F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F08D511F66DE8600C0100F;
+			remoteInfo = "NYU-ID-Scanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49F08D521F66DE8700C0100F /* NYU-ID-Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU-ID-Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F08D551F66DE8700C0100F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49F08D571F66DE8700C0100F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49F08D5A1F66DE8700C0100F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F08D5C1F66DE8700C0100F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F08D5F1F66DE8700C0100F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F08D611F66DE8700C0100F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F08D661F66DE8700C0100F /* NYU-ID-ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYU-ID-ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F08D6A1F66DE8700C0100F /* NYU_ID_ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_ID_ScannerTests.swift; sourceTree = "<group>"; };
+		49F08D6C1F66DE8700C0100F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F08D711F66DE8700C0100F /* NYU-ID-ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYU-ID-ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F08D751F66DE8700C0100F /* NYU_ID_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_ID_ScannerUITests.swift; sourceTree = "<group>"; };
+		49F08D771F66DE8700C0100F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F08D831F66E12F00C0100F /* OpticalIDScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpticalIDScanner.swift; sourceTree = "<group>"; };
+		7A4ADB402E37C3C0E8625BB6 /* Pods_NYU_ID_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_ID_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E7D0D6F5780A2D18BD25D7 /* Pods-NYU-ID-Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU-ID-Scanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYU-ID-Scanner/Pods-NYU-ID-Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		A14A8784343CB227158545B4 /* Pods-NYU-ID-Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU-ID-Scanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU-ID-Scanner/Pods-NYU-ID-Scanner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F08D4F1F66DE8600C0100F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6B190E9F0C221A60684A82 /* Pods_NYU_ID_Scanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F08D631F66DE8700C0100F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F08D6E1F66DE8700C0100F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F08D491F66DE8600C0100F = {
+			isa = PBXGroup;
+			children = (
+				49F08D541F66DE8700C0100F /* NYU-ID-Scanner */,
+				49F08D691F66DE8700C0100F /* NYU-ID-ScannerTests */,
+				49F08D741F66DE8700C0100F /* NYU-ID-ScannerUITests */,
+				49F08D531F66DE8700C0100F /* Products */,
+				6B032DF9E2DA7C79B737534D /* Pods */,
+				5076FAAED3510F97DD6BB29D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49F08D531F66DE8700C0100F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F08D521F66DE8700C0100F /* NYU-ID-Scanner.app */,
+				49F08D661F66DE8700C0100F /* NYU-ID-ScannerTests.xctest */,
+				49F08D711F66DE8700C0100F /* NYU-ID-ScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F08D541F66DE8700C0100F /* NYU-ID-Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				49F08D551F66DE8700C0100F /* AppDelegate.swift */,
+				49F08D831F66E12F00C0100F /* OpticalIDScanner.swift */,
+				49F08D571F66DE8700C0100F /* ViewController.swift */,
+				49F08D591F66DE8700C0100F /* Main.storyboard */,
+				49F08D5C1F66DE8700C0100F /* Assets.xcassets */,
+				49F08D5E1F66DE8700C0100F /* LaunchScreen.storyboard */,
+				49F08D611F66DE8700C0100F /* Info.plist */,
+			);
+			path = "NYU-ID-Scanner";
+			sourceTree = "<group>";
+		};
+		49F08D691F66DE8700C0100F /* NYU-ID-ScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				49F08D6A1F66DE8700C0100F /* NYU_ID_ScannerTests.swift */,
+				49F08D6C1F66DE8700C0100F /* Info.plist */,
+			);
+			path = "NYU-ID-ScannerTests";
+			sourceTree = "<group>";
+		};
+		49F08D741F66DE8700C0100F /* NYU-ID-ScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49F08D751F66DE8700C0100F /* NYU_ID_ScannerUITests.swift */,
+				49F08D771F66DE8700C0100F /* Info.plist */,
+			);
+			path = "NYU-ID-ScannerUITests";
+			sourceTree = "<group>";
+		};
+		5076FAAED3510F97DD6BB29D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4ADB402E37C3C0E8625BB6 /* Pods_NYU_ID_Scanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B032DF9E2DA7C79B737534D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E7D0D6F5780A2D18BD25D7 /* Pods-NYU-ID-Scanner.debug.xcconfig */,
+				A14A8784343CB227158545B4 /* Pods-NYU-ID-Scanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F08D511F66DE8600C0100F /* NYU-ID-Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F08D7A1F66DE8700C0100F /* Build configuration list for PBXNativeTarget "NYU-ID-Scanner" */;
+			buildPhases = (
+				F774E30734C3D00295F68E40 /* [CP] Check Pods Manifest.lock */,
+				49F08D4E1F66DE8600C0100F /* Sources */,
+				49F08D4F1F66DE8600C0100F /* Frameworks */,
+				49F08D501F66DE8600C0100F /* Resources */,
+				7322F5AEEA82BC9B79BE8A42 /* [CP] Embed Pods Frameworks */,
+				2A79C39780D13A584729C47E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYU-ID-Scanner";
+			productName = "NYU-ID-Scanner";
+			productReference = 49F08D521F66DE8700C0100F /* NYU-ID-Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F08D651F66DE8700C0100F /* NYU-ID-ScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F08D7D1F66DE8700C0100F /* Build configuration list for PBXNativeTarget "NYU-ID-ScannerTests" */;
+			buildPhases = (
+				49F08D621F66DE8700C0100F /* Sources */,
+				49F08D631F66DE8700C0100F /* Frameworks */,
+				49F08D641F66DE8700C0100F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F08D681F66DE8700C0100F /* PBXTargetDependency */,
+			);
+			name = "NYU-ID-ScannerTests";
+			productName = "NYU-ID-ScannerTests";
+			productReference = 49F08D661F66DE8700C0100F /* NYU-ID-ScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49F08D701F66DE8700C0100F /* NYU-ID-ScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F08D801F66DE8700C0100F /* Build configuration list for PBXNativeTarget "NYU-ID-ScannerUITests" */;
+			buildPhases = (
+				49F08D6D1F66DE8700C0100F /* Sources */,
+				49F08D6E1F66DE8700C0100F /* Frameworks */,
+				49F08D6F1F66DE8700C0100F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F08D731F66DE8700C0100F /* PBXTargetDependency */,
+			);
+			name = "NYU-ID-ScannerUITests";
+			productName = "NYU-ID-ScannerUITests";
+			productReference = 49F08D711F66DE8700C0100F /* NYU-ID-ScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F08D4A1F66DE8600C0100F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cole Smith";
+				TargetAttributes = {
+					49F08D511F66DE8600C0100F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 626TEZTB77;
+						ProvisioningStyle = Automatic;
+					};
+					49F08D651F66DE8700C0100F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 626TEZTB77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49F08D511F66DE8600C0100F;
+					};
+					49F08D701F66DE8700C0100F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 626TEZTB77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49F08D511F66DE8600C0100F;
+					};
+				};
+			};
+			buildConfigurationList = 49F08D4D1F66DE8600C0100F /* Build configuration list for PBXProject "NYU-ID-Scanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F08D491F66DE8600C0100F;
+			productRefGroup = 49F08D531F66DE8700C0100F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F08D511F66DE8600C0100F /* NYU-ID-Scanner */,
+				49F08D651F66DE8700C0100F /* NYU-ID-ScannerTests */,
+				49F08D701F66DE8700C0100F /* NYU-ID-ScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F08D501F66DE8600C0100F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F08D601F66DE8700C0100F /* LaunchScreen.storyboard in Resources */,
+				49F08D5D1F66DE8700C0100F /* Assets.xcassets in Resources */,
+				49F08D5B1F66DE8700C0100F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F08D641F66DE8700C0100F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F08D6F1F66DE8700C0100F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A79C39780D13A584729C47E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYU-ID-Scanner/Pods-NYU-ID-Scanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7322F5AEEA82BC9B79BE8A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYU-ID-Scanner/Pods-NYU-ID-Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F774E30734C3D00295F68E40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F08D4E1F66DE8600C0100F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F08D581F66DE8700C0100F /* ViewController.swift in Sources */,
+				49F08D561F66DE8700C0100F /* AppDelegate.swift in Sources */,
+				49F08D841F66E12F00C0100F /* OpticalIDScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F08D621F66DE8700C0100F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F08D6B1F66DE8700C0100F /* NYU_ID_ScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F08D6D1F66DE8700C0100F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F08D761F66DE8700C0100F /* NYU_ID_ScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F08D681F66DE8700C0100F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F08D511F66DE8600C0100F /* NYU-ID-Scanner */;
+			targetProxy = 49F08D671F66DE8700C0100F /* PBXContainerItemProxy */;
+		};
+		49F08D731F66DE8700C0100F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F08D511F66DE8600C0100F /* NYU-ID-Scanner */;
+			targetProxy = 49F08D721F66DE8700C0100F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F08D591F66DE8700C0100F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F08D5A1F66DE8700C0100F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F08D5E1F66DE8700C0100F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F08D5F1F66DE8700C0100F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F08D781F66DE8700C0100F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49F08D791F66DE8700C0100F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F08D7B1F66DE8700C0100F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E7D0D6F5780A2D18BD25D7 /* Pods-NYU-ID-Scanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 626TEZTB77;
+				INFOPLIST_FILE = "NYU-ID-Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colesmith.NYU-ID-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49F08D7C1F66DE8700C0100F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14A8784343CB227158545B4 /* Pods-NYU-ID-Scanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 626TEZTB77;
+				INFOPLIST_FILE = "NYU-ID-Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colesmith.NYU-ID-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49F08D7E1F66DE8700C0100F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 626TEZTB77;
+				INFOPLIST_FILE = "NYU-ID-ScannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colesmith.NYU-ID-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYU-ID-Scanner.app/NYU-ID-Scanner";
+			};
+			name = Debug;
+		};
+		49F08D7F1F66DE8700C0100F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 626TEZTB77;
+				INFOPLIST_FILE = "NYU-ID-ScannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colesmith.NYU-ID-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYU-ID-Scanner.app/NYU-ID-Scanner";
+			};
+			name = Release;
+		};
+		49F08D811F66DE8700C0100F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 626TEZTB77;
+				INFOPLIST_FILE = "NYU-ID-ScannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colesmith.NYU-ID-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NYU-ID-Scanner";
+			};
+			name = Debug;
+		};
+		49F08D821F66DE8700C0100F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 626TEZTB77;
+				INFOPLIST_FILE = "NYU-ID-ScannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colesmith.NYU-ID-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NYU-ID-Scanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F08D4D1F66DE8600C0100F /* Build configuration list for PBXProject "NYU-ID-Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F08D781F66DE8700C0100F /* Debug */,
+				49F08D791F66DE8700C0100F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F08D7A1F66DE8700C0100F /* Build configuration list for PBXNativeTarget "NYU-ID-Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F08D7B1F66DE8700C0100F /* Debug */,
+				49F08D7C1F66DE8700C0100F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F08D7D1F66DE8700C0100F /* Build configuration list for PBXNativeTarget "NYU-ID-ScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F08D7E1F66DE8700C0100F /* Debug */,
+				49F08D7F1F66DE8700C0100F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F08D801F66DE8700C0100F /* Build configuration list for PBXNativeTarget "NYU-ID-ScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F08D811F66DE8700C0100F /* Debug */,
+				49F08D821F66DE8700C0100F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F08D4A1F66DE8600C0100F /* Project object */;
+}
